@@ -1,4 +1,4 @@
-# TEAM NEXUS — Student Team Members Management Application
+# TEAM X — Student Team Members Management Application
 
 > **Course:** 21CSS301T – Full Stack Development   
 > **Institution:** SRM Institute of Science and Technology  
@@ -24,7 +24,7 @@ A full-stack web application that allows teams to manage their members. It provi
 ## Project Structure
 
 ```
-TEAM-NEXUS/
+TEAM-X/
 ├── backend/
 │   ├── server.js           # Express server + all API routes
 │   ├── uploads/            # Uploaded profile images stored here
