@@ -1,0 +1,121 @@
+.search-bar-wrap {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 36px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-bar {
+  flex: 1;
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Member card */
+.member-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  cursor: pointer;
+}
+
+.member-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(108,99,255,0.2);
+}
+
+.member-card-img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--bg3);
+  overflow: hidden;
+}
+
+.member-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+.member-card:hover .member-card-img {
+  transform: scale(1.05);
+}
+
+.member-card-avatar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 5rem;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, var(--bg3), var(--bg2));
+  color: var(--accent);
+  opacity: 0.6;
+}
+
+.member-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10,10,15,0.7) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.member-card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.member-card-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.member-card-roll {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.member-card-role {
+  align-self: flex-start;
+}
+
+.member-card-meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.meta-item {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.view-details-btn {
+  margin-top: 8px;
+  text-align: center;
+  justify-content: center;
+  font-size: 0.88rem;
+  padding: 10px 20px;
+}
