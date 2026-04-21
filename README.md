@@ -18,7 +18,6 @@ A full-stack web application that allows teams to manage their members. It provi
 | Frontend | React.js, React Router v6, Axios, CSS3 |
 | Backend | Node.js, Express.js |
 | Database | MongoDB (via Mongoose) |
-| File Uploads | Multer |
 
 ---
 
