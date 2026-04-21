@@ -1,7 +1,6 @@
 # TEAM NEXUS — Student Team Members Management Application
 
-> **Course:** 21CSS301T – Full Stack Development  
-> **Assessment:** CLAT-2 (Online Assessment)  
+> **Course:** 21CSS301T – Full Stack Development   
 > **Institution:** SRM Institute of Science and Technology  
 
 ---
@@ -156,12 +155,5 @@ mongod
 
 ---
 
-## Screenshots
 
-See the `screenshots/` folder or visit the live app at `http://localhost:3000`
 
----
-
-## Submission
-
-GitHub repository submitted via Google Form before **1-5-2025, 12:00pm**
