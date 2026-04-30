@@ -59,8 +59,8 @@ TEAM-X/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/TEAM-NEXUS.git
-cd TEAM-NEXUS
+git clone https://github.com/RangaMokshagna/Team-Members-Name-Manager.git
+cd Team-Members-Name-Manager
 ```
 
 ### 2. Set up the Backend
